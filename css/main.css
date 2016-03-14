@@ -25,22 +25,32 @@ body {
 }
 
 .card-title {
-  display: inline-block;
-  width: 100%;
+  max-width: 100%;
+  margin: 0;
   font-size: 4rem;
+  font-style: normal;
+  color: white;
+  line-height: 1.4;
 }
 
 .card-body {
   position: absolute;
-  left: 5%;
+  left: 50%;
   bottom: 0;
+  max-width: 45rem;
   width: 100%;
   font-style: italic;
   font-size: 2rem;
+  margin: 0;
+  padding: 0 1rem;
+  transform: translateX(-50%);
 }
 
 span {
-  display: inline-block;
+  display: inline;
   background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+}
+
+p {
+  margin: 1.2rem;
 }
